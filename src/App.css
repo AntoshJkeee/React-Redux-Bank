@@ -1,5 +1,45 @@
 .App {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btns {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text {
+  text-align: center;
+  font-weight: 400;
+}
+
+.result {
+  border-radius: 5px;
+  background-color: teal;
+  padding: 20px 40px;
+  max-width: 400px;
+  margin: 20px auto;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  color: white;
+  transition: all 0.5s ease;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  background-color: #015959;
 }
 
 .App-logo {
@@ -24,15 +64,33 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  padding: 5px;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-info h3 {
+  margin: 0;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.group h3 {
+  margin-right: 15px;
+}
+
+.ico {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.ico:hover {
+  fill: #cecece;
 }
