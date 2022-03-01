@@ -19,7 +19,7 @@
 .result {
   border-radius: 5px;
   background-color: teal;
-  padding: 20px 40px;
+  padding: 15px 15px;
   max-width: 400px;
   margin: 20px auto;
   color: white;
@@ -36,6 +36,10 @@ button {
   transition: all 0.5s ease;
   margin-right: 10px;
   font-family: 'Poppins', sans-serif;
+}
+
+button:last-child {
+  margin-right: 0;
 }
 
 button:hover {
